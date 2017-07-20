@@ -22,6 +22,8 @@ Zidanfei = media.Movie("Let the Bullets Fly",
                            "https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=456b67b0ebc4b7452099bf44ae957572/1c950a7b02087bf445efb670f2d3572c11dfcf2c.jpg",
                            "https://www.youtube.com/watch?v=33SjTgWt1gI")
 
+# 电影列表
 movies = [Naruto, Qianxun, Zidanfei]
+# 构造网页并且用浏览器打开
 fresh_tomatoes.open_movies_page(movies)
 
